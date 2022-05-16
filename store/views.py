@@ -10,4 +10,5 @@ class ProductView(View):
         context = {
             'products': products,
         }
+        dawdaw
         return render(request, "products/product_list.html", context)
